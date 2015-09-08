@@ -24,7 +24,7 @@ Voor vragen of opmerkingen kunt u contact met ons op.</p>
   Naam: <input type="text" name="naam">
   Bedrijf: <input type="text" name="bedrijf">
   Adres: <input type="text" name="adres">
-  Postcode: <input type="text" name="postcode" >
+  Postcode: <input type="text" name="postcode">
   Plaats: <input type="text" name="plaats">
   Telefoon: <input type="tel" name="tel">
   Email: <input type="email" name="email">
@@ -33,11 +33,8 @@ Voor vragen of opmerkingen kunt u contact met ons op.</p>
   <fieldset>
   <legend>Ik wil mij aanmelden</legend>
      <input type="radio" name="aanmelden" value="male"> Voor een project
-     
-     <input type="radio" name="aanmelden" value="female"> Als 										     stagebedrijf     
+     <input type="radio" name="aanmelden" value="female"> Als stagebedrijf     
   </fieldset>
-  
-  
   
   <fieldset>
   <legend>Project</legend>
@@ -46,7 +43,7 @@ Voor vragen of opmerkingen kunt u contact met ons op.</p>
   </textarea>
   Doelgroepomschrijving:<textarea name="doelgroep" rows="5" cols="50">
   </textarea>
-    Doelstelling/intentie van het project:<textarea name=    "doelstelling" rows="5" cols="50">
+    Doelstelling/intentie van het project:<textarea name="doelstelling" rows="5" cols="50">
   </textarea>
   Looptijd:<input type="number" min="1" max="20" name="number"> <select name="looptijd">
   <option value="weken">Weken</option>
@@ -61,9 +58,7 @@ Voor vragen of opmerkingen kunt u contact met ons op.</p>
   Opmerking: <textarea name="doelgroep" rows="5" cols="50">
   </textarea>
   </fieldset>
-  
- 
-  
+
   <fieldset>
   <legend>Stage</legend>
   Geschikt voor: <select name="geschiktvoor">
