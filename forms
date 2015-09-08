@@ -14,75 +14,75 @@ Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. O
 
 <p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em></p>
 
-<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.<br /> 
-Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.</p>
+<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. 
+Voor vragen of opmerkingen kunt u contact met ons op.</p>
 
 <form>
 <fieldset>
 <legend>Contactgegevens:</legend>
 
-  Naam: <input type="text" name="naam"><br />
-  Bedrijf: <input type="text" name="bedrijf"><br />
-  Adres: <input type="text" name="adres"><br />
-  Postcode: <input type="text" name="postcode" ><br />
-  Plaats: <input type="text" name="plaats"><br />
-  Telefoon: <input type="tel" name="tel"><br />
-  Email: <input type="email" name="email"><br />
+  Naam: <input type="text" name="naam">
+  Bedrijf: <input type="text" name="bedrijf">
+  Adres: <input type="text" name="adres">
+  Postcode: <input type="text" name="postcode" >
+  Plaats: <input type="text" name="plaats">
+  Telefoon: <input type="tel" name="tel">
+  Email: <input type="email" name="email">
   </fieldset>
-  <br>
+
   <fieldset>
   <legend>Ik wil mij aanmelden</legend>
      <input type="radio" name="aanmelden" value="male"> Voor een project
-     <br>
+     
      <input type="radio" name="aanmelden" value="female"> Als 										     stagebedrijf     
   </fieldset>
   
-  <br>
+  
   
   <fieldset>
   <legend>Project</legend>
-  Titel: <input type="text" name="titel"><br />
-  Opdrachtomschrijving:<br/><textarea name="opdracht" rows="5" cols="50">
-  </textarea><br/>
-  Doelgroepomschrijving:<br/><textarea name="doelgroep" rows="5" cols="50">
-  </textarea><br/>
-    Doelstelling/intentie van het project:<br/><textarea name=    "doelstelling" rows="5" cols="50">
-  </textarea><br/>
+  Titel: <input type="text" name="titel">
+  Opdrachtomschrijving:<textarea name="opdracht" rows="5" cols="50">
+  </textarea>
+  Doelgroepomschrijving:<textarea name="doelgroep" rows="5" cols="50">
+  </textarea>
+    Doelstelling/intentie van het project:<textarea name=    "doelstelling" rows="5" cols="50">
+  </textarea>
   Looptijd:<input type="number" min="1" max="20" name="number"> <select name="looptijd">
   <option value="weken">Weken</option>
-  <option value="maanden">Maanden</option></select><br/>
-  Deadline:<input type="date" name="deadline"><br>
+  <option value="maanden">Maanden</option></select>
+  Deadline:<input type="date" name="deadline">
   Geschikt voor: <select name="geschiktvoor">
-  <option value="eerstejaars">Eerstejaars studenten</option>
-  <option value="tweedejaars">Tweedejaars studenten</option>
-  <option value="derdejaars">Derdejaars studenten</option>
-  <option value="afstudeer">Afstudeer studenten</option>
-  <option value="onbekend">Onbekend</option></select><br/>
-  Opmerking: <br/><textarea name="doelgroep" rows="5" cols="50">
+      <option value="eerstejaars">Eerstejaars studenten</option>
+      <option value="tweedejaars">Tweedejaars studenten</option>
+      <option value="derdejaars">Derdejaars studenten</option>
+      <option value="afstudeer">Afstudeer studenten</option>
+      <option value="onbekend">Onbekend</option></select>
+  Opmerking: <textarea name="doelgroep" rows="5" cols="50">
   </textarea>
   </fieldset>
   
-  <br/>
+ 
   
   <fieldset>
   <legend>Stage</legend>
   Geschikt voor: <select name="geschiktvoor">
   <option value="tweedejaars">Tweedejaars studenten</option>
   <option value="afstudeer">Afstudeer studenten</option>
-  <option value="onbekend">Onbekend</option></select><br/>
+  <option value="onbekend">Onbekend</option></select>
   Hoe lang is de stage: <select name="hoelangstage">
   <option value="10weken">10 weken</option>
-  <option value="20weken">20 weken</option></select><br/>
-  Begindatum:<input type="date" name="begindatum"><br/>
-  Beschrijving werkzaamheden:<br/><textarea name="werkzaamheden" rows="5" cols="50"> </textarea><br/>
-  Beschrijving stagebedrijf: <br/>
-  Bedrijfsnaam: <input type="text" name="naam"><br />
-  Adres: <input type="text" name="adres"><br />
-  Postcode: <input type="text" name="postcode" ><br />
-  Plaats: <input type="text" name="plaats"><br />
-  Sector: <input type="text" name="sector"><br />
-  Core Business: <input type="text" name="corebusiness"><br /> 
-  Opmerking: <br/><textarea name="doelgroep" rows="5" cols="50">
+  <option value="20weken">20 weken</option></select>
+  Begindatum:<input type="date" name="begindatum">
+  Beschrijving werkzaamheden:<textarea name="werkzaamheden" rows="5" cols="50"> </textarea>
+  Beschrijving stagebedrijf: 
+  Bedrijfsnaam: <input type="text" name="naam">
+  Adres: <input type="text" name="adres">
+  Postcode: <input type="text" name="postcode" >
+  Plaats: <input type="text" name="plaats">
+  Sector: <input type="text" name="sector">
+  Core Business: <input type="text" name="corebusiness">
+  Opmerking: <textarea name="doelgroep" rows="5" cols="50">
   </textarea>
   </fieldset>
   
