@@ -43,10 +43,10 @@ a:active {
 
 /*BEGIN HEADER*/
 body > header {
-	text-align: left;
 	width:70%;
 	margin: auto;
 	background-color: #FFCC00;
+	text-align:center;
 }
 
 body > header > h1 {
@@ -67,6 +67,7 @@ body > header img {
    height: auto;
    float: left;
    display: block;
+   padding-top:2%;
 }
 
 body > header > form {
@@ -98,20 +99,19 @@ body > header > form > button {
 
 nav {
 	background-color:rgba(255,255,255,0.4);
-	text-align:center;
-	border: solid rgba(255,255,255,0.9);
+	border: solid thick rgba(255,255,255,0.9);
 	border-radius: 3em;
 	margin: 2.3em;
 	-webkit-box-shadow: 0px 1px 11px 3px rgba(255,255,255,1);
 -moz-box-shadow: 0px 1px 11px 3px rgba(255,255,255,1);
 box-shadow: 0px 1px 11px 3px rgba(255,255,255,1);
+	display:block;
 }
 
 nav ul li a {
 	font-size:1.1em;
 	-webkit-transition: text-shadow 3s;
     transition: text-shadow 0.5s, transform 1s;
-	text-align:center;
 }	
 
 nav ul li a:hover {
@@ -123,10 +123,14 @@ nav ul li a:hover {
 nav ul {
 	 display:inline-table;
 	 list-style: none;
+	 text-align:center;
+	 width:100%;
+	 margin-left:-5%;
 }
 
 nav ul li {
-	float:left;
+	text-align:center;
+	display:inline-block;
 }
 
 nav ul li a {
@@ -134,7 +138,7 @@ nav ul li a {
 	padding: 0.5em 1em;
 	color:black; 
 	text-decoration: none;
-	float: left;
+	text-align:center;
 }
 
 .related {
@@ -386,17 +390,24 @@ footer section input[type="submit"] {
 
 @media only screen and (max-width: 48em), only screen and (max-device-width: 48em) {
 body > header {
-	 width:100%;
-	 margin:0;
-	 display:block;
+	width:100%;
+	margin:0;
+	display:block;
+	text-align:center;
 }
 
 body > header > h1 {
-	font-size:3.7em;
+	font-size:2em;
 	width:70%;
 	margin: auto;
 	display:block;
-	padding:3%;
+	padding-top:6%;
+}
+
+body > header img {
+   display: block;
+   width: auto;
+   margin: auto;
 }
 
 body > header > p {
@@ -406,27 +417,30 @@ body > header > p {
 	display:block;
 	margin:auto;
 	padding-bottom:5%;
+	padding-top:1%;
 }
 
 header > nav {
 	width:100%;
-	border:none;
+	display:block;
+	margin:auto;
+	border-left:none;
+	border-right:none;
 	border-radius: 0;
-	margin: 0;
-	text-align:center;
 }
 
 header > nav > ul > li {
-	display: block;
-	margin: auto;
-	height: auto;
-	width:90%;
+	margin: 0 auto;
+}
 
+header > nav > ul {
+	width:90%;
+	text-align:center;
 }
 
 nav ul li a {
 	transition: none;
-	padding-left:10%;
+	text-align:center;
 }	
 
 nav ul li a:hover {
@@ -569,6 +583,7 @@ header > nav {
 	margin: 0;
 	text-align:center;
 }
+
 header > nav > ul > li {
 	display: block;
 	margin: 0;
@@ -659,6 +674,7 @@ body > footer > p {
 }
 
 	
+
 
 
 
